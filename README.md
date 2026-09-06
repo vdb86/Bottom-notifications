@@ -51,10 +51,21 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 
 <div align="center">
 
-<img src="Screenshots/1.jpg" alt="Bottom notifications screenshot" width="24%" />
-<img src="Screenshots/2.jpg" alt="Bottom notifications screenshot" width="24%" />
-<img src="Screenshots/3.jpg" alt="Bottom notifications screenshot" width="24%" />
-<img src="Screenshots/4.jpg" alt="Bottom notifications screenshot" width="24%" />
+<img src="Screenshots/Shade.jpg" alt="The notification shade open at the bottom with a media player and weather notifications" width="30%" />
+<img src="Screenshots/Button%201.jpg" alt="The floating button as a slim pill showing the latest notification app icons" width="30%" />
+<img src="Screenshots/Button%203.jpg" alt="The floating button with an unread count and app icons clustered around it" width="30%" />
+
+<img src="Screenshots/Button%202.jpg" alt="Notification icons flying into place around the floating button" width="30%" />
+<img src="Screenshots/Button%204.jpg" alt="The floating button snapped half-tucked at the screen edge" width="30%" />
+<img src="Screenshots/Button%205.jpg" alt="The floating button in a minimal style with small monochrome status icons" width="30%" />
+
+<br/>
+
+**Settings tours:**
+[General](Screenshots/Settings%20-%20general.jpg) ·
+[Notifications](Screenshots/Settings%20-%20notifications.jpg) ·
+[Button](Screenshots/Settings%20-%20button.jpg) ·
+[Shade](Screenshots/Settings%20-%20shade.jpg)
 
 </div>
 
