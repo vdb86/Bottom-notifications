@@ -42,7 +42,8 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 - **Pick a browsing style** - a clean scrolling list or a playful "ferris wheel" that turns as you scroll.
 - **Everyday helpers** - swipe to dismiss, tap to open, and reply to messages right from the shade.
 - **Built-in media player** - play/pause, skip, seek, shuffle, repeat, and album art.
-- **Smart filtering** - choose which apps show up, hide the rest, group a chatty app into one expandable row, and pin favourites to the top or bottom. Do Not Disturb aware.
+- **Notification grouping by app** - fold a chatty app into a single row: its icon, a count, and a line per notification. Tap opens the app, one swipe clears the whole group, and you turn it on per app - from the per-app settings or by long-pressing a row of the app that is annoying you.
+- **Smart filtering** - choose which apps show up, hide the rest, and pin favourites to the top or bottom. Do Not Disturb aware.
 - **Gestures & shortcuts** - give the button a tap and four swipe directions, each doing whatever you choose; group actions into "modes" and switch with a swipe.
 - **Home screen widgets** - a full notification list widget (works on the lock screen too), slim icon-strip widgets, and a tiny count widget.
 - **Open it your way** - from the home screen, lock screen, or an automation app like MacroDroid or Tasker.
