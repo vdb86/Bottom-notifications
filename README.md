@@ -52,12 +52,7 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 ## 🧠 The notification manager
 
 A rule watches for the notifications you describe, then acts on them - no tapping required.
-
-<div align="center">
-
-<img src="Screenshots/Notification%20manager.jpg" alt="The Rules screen with eight rules listed, each showing its scope, condition count and action, with drag handles and on/off switches" width="35%" />
-
-</div>
+([See the Rules screen](#-screenshots).)
 
 **What a rule can do**
 
@@ -93,14 +88,15 @@ App, words (anywhere, as whole words, or as a pattern), category, importance, gr
 <img src="Screenshots/Button%204.jpg" alt="The floating button snapped half-tucked at the screen edge" width="30%" />
 <img src="Screenshots/Button%205.jpg" alt="The floating button in a minimal style with small monochrome status icons" width="30%" />
 
+<img src="Screenshots/Notification%20manager.jpg" alt="The Rules screen with eight rules listed, each showing its scope, condition count and action, with drag handles and on/off switches" width="30%" />
+
 <br/>
 
 **Settings tours:**
 [General](Screenshots/Settings%20-%20general.jpg) ·
 [Notifications](Screenshots/Settings%20-%20notifications.jpg) ·
 [Button](Screenshots/Settings%20-%20button.jpg) ·
-[Shade](Screenshots/Settings%20-%20shade.jpg) ·
-[Rules](Screenshots/Notification%20manager.jpg)
+[Shade](Screenshots/Settings%20-%20shade.jpg)
 
 </div>
 
