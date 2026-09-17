@@ -36,14 +36,48 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 
 ## ✨ What you can do
 
+- **A notification manager, not just a shade** - write rules that watch for the notifications you describe, then act on them. See below.
+- **Snooze and action buttons on every row** - snooze in one tap from a list of durations (including your own custom one), and an Actions button that lists what a notification really holds: a verification code, a link, a phone number, the message itself - each one ready to open, copy or share. Long-press a row for app-wide choices: pin, group, exclude, or make a rule for it.
 - **A shade that fits you** - design the floating button (size, shape, corners, colours, border, position) and style every part of a notification: background, icon, name, title, text, time, and buttons.
 - **Pick a browsing style** - a clean scrolling list or a playful "ferris wheel" that turns as you scroll.
 - **Everyday helpers** - swipe to dismiss, tap to open, and reply to messages right from the shade.
 - **Built-in media player** - play/pause, skip, seek, shuffle, repeat, and album art.
-- **Smart filtering** - choose which apps show up, hide the rest, and pin favourites to the top or bottom. Do Not Disturb aware.
+- **Smart filtering** - choose which apps show up, hide the rest, group a chatty app into one expandable row, and pin favourites to the top or bottom. Do Not Disturb aware.
 - **Gestures & shortcuts** - give the button a tap and four swipe directions, each doing whatever you choose; group actions into "modes" and switch with a swipe.
 - **Home screen widgets** - a full notification list widget (works on the lock screen too), slim icon-strip widgets, and a tiny count widget.
 - **Open it your way** - from the home screen, lock screen, or an automation app like MacroDroid or Tasker.
+
+---
+
+## 🧠 The notification manager
+
+A rule watches for the notifications you describe, then acts on them - no tapping required.
+
+<div align="center">
+
+<img src="Screenshots/Notification%20manager.jpg" alt="The Rules screen with eight rules listed, each showing its scope, condition count and action, with drag handles and on/off switches" width="35%" />
+
+</div>
+
+**What a rule can do**
+
+- **Silence, snooze or dismiss** a notification as it arrives.
+- **Hold it back and deliver it in a batch** - at times you choose, or once an hour.
+- **Let the first one through and keep the rest quiet**, so a busy chat interrupts you once instead of thirty times.
+- **Remind you later** about anything you did not deal with.
+- **Alert differently for what matters** - your own sound, a choice of vibration patterns, a torch flash, a ringer change, or the notification read aloud.
+- **Copy a verification code** to the clipboard the moment it arrives.
+- **Press a notification's own buttons, send a reply, or open it** for you.
+
+**What a rule can match on**
+
+App, words (anywhere, as whole words, or as a pattern), category, importance, group chats, contacts, pictures, replies, text length, the time of day for each weekday, and what the phone is doing - screen, call, ringer, or Do Not Disturb. Conditions combine with and/or, nest in groups, and can be inverted.
+
+**Living with them**
+
+- **Ten ready-made templates** to start from, from copying verification codes to silencing message reactions.
+- **Rules run top to bottom** and you drag them into order, so you decide what wins.
+- **A quick-settings tile** hands back everything being held, the moment you want it.
 
 ---
 
@@ -65,7 +99,8 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 [General](Screenshots/Settings%20-%20general.jpg) ·
 [Notifications](Screenshots/Settings%20-%20notifications.jpg) ·
 [Button](Screenshots/Settings%20-%20button.jpg) ·
-[Shade](Screenshots/Settings%20-%20shade.jpg)
+[Shade](Screenshots/Settings%20-%20shade.jpg) ·
+[Rules](Screenshots/Notification%20manager.jpg)
 
 </div>
 
