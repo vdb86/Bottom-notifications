@@ -6,7 +6,7 @@
 
 ### Reach your notifications with your thumb, not a stretch
 
-**Bring your notifications to the bottom. Private, offline, endlessly custom.**
+**Bring your notifications to the bottom. Private, ad-free, endlessly custom.**
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.bottomnotifications.app">
@@ -71,7 +71,7 @@ App, words (anywhere, as whole words, or as a pattern), category, importance, gr
 
 **Living with them**
 
-- **Ten ready-made templates** to start from, from copying verification codes to silencing message reactions.
+- **Twenty ready-made templates** to start from, from copying verification codes to silencing message reactions.
 - **Rules run top to bottom** and you drag them into order, so you decide what wins.
 - **A quick-settings tile** hands back everything being held, the moment you want it.
 
@@ -105,7 +105,7 @@ App, words (anywhere, as whole words, or as a pattern), category, importance, gr
 
 ## 🔒 Your privacy comes first
 
-- **No internet access at all.** Your notifications physically cannot leave your device.
+- **Your notifications never leave your device.** The app never sends them anywhere.
 - **No ads. No trackers. No analytics.**
 - **No account, no sign-up, no email required.**
 
@@ -115,18 +115,30 @@ The only things the app needs are notification access (so it can show your notif
 
 ## 🔑 How this app uses the Accessibility Service
 
-Bottom notifications includes an optional Accessibility Service. It is turned **OFF by default**, you are never required to enable it, and every other feature works fully without it. If you choose to turn it on, it powers three convenience features for the floating button:
+Bottom notifications includes an optional Accessibility Service. It is turned **OFF by default**, you are never required to enable it, and every other feature works fully without it. If you choose to turn it on, it powers four things:
 
 1. **Per-app button behaviour** - it detects which app is in the foreground, so the button can change how it behaves (for example move aside or hide) only in the apps you choose.
 2. **Keyboard-aware button** - it detects when the on-screen keyboard is visible and where it sits, so the button can move out of the way or hide while you type.
 3. **Navigation gestures** - it performs Back, Home, and Recent-apps actions when you assign one of those to a button tap or swipe.
+4. **Rule actions** - Android only allows rules to press a notification's own buttons, open it, or reply while an accessibility service is on. The service itself taps nothing and reads nothing extra for this.
 
-The service only checks which app is in front and whether the keyboard is showing. It does **NOT** read, log, record, collect, or transmit the content of your screen, your keystrokes, or any personal data. Because the app has no internet access at all, nothing it observes can ever leave your device. You can turn it off at any time in Android's Accessibility settings.
+The service only checks which app is in front and whether the keyboard is showing. It does **NOT** read, log, record, collect, or transmit the content of your screen, your keystrokes, or any personal data, and nothing it observes ever leaves your device. You can turn it off at any time in Android's Accessibility settings.
+
+---
+
+## 🌍 Languages
+
+Bottom notifications is available in **50 languages** and follows your phone's language automatically:
+
+Arabic, Bengali, Bulgarian, Catalan, Chinese (Simplified), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Korean, Latvian, Lithuanian, Malayalam, Marathi, Norwegian, Persian, Polish, Portuguese (Brazil and Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic and Latin), Slovak, Slovenian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese and Zulu.
+
+If something reads wrong in your language, please [report it](../../issues/new?template=bug_report.yml).
 
 ---
 
 ## 📌 A few things to know
 
+- Available in **50 languages** (see above).
 - Works on **Android 10 and newer**.
 - Some phones aggressively close background apps. If the button ever disappears, the in-app tips help keep it running.
 
