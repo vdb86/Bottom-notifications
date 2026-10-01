@@ -39,12 +39,17 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 - **A notification manager, not just a shade** - write rules that watch for the notifications you describe, then act on them. See below.
 - **Snooze and action buttons on every row** - snooze in one tap from a list of durations (including your own custom one), and an Actions button that lists what a notification really holds: a verification code, a link, a phone number, the message itself - each one ready to open, copy or share. Long-press a row for app-wide choices: pin, group, exclude, or make a rule for it.
 - **A shade that fits you** - design the floating button (size, shape, corners, colours, border, position) and style every part of a notification: background, icon, name, title, text, time, and buttons.
+- **A button that comes alive** - the button can appear and hide with any of the shade's 36 open and close animations, travelling to and from the nearest screen edge (a Try it button plays it on the real button). While music plays it can show the album art or an animation: Record, Tape, CD, Equalizer, Pulse, Music notes, Wave or Scrolling title, most of them in a colour you pick.
+- **Your look, your icons** - Material You colours that follow your wallpaper, icon pack support, and your own icon for any app - from a pack or a picture - shown everywhere in the app.
 - **Pick a browsing style** - a clean scrolling list or a playful "ferris wheel" that turns as you scroll.
 - **Everyday helpers** - swipe to dismiss, tap to open, and reply to messages right from the shade.
 - **Built-in media player** - play/pause, skip, seek, shuffle, repeat, and album art.
 - **Notification grouping by app** - fold a chatty app into a single row: its icon, a count, and a line per notification. Tap opens the app, one swipe clears the whole group, and you turn it on per app - from the per-app settings or by long-pressing a row of the app that is annoying you.
 - **Smart filtering** - choose which apps show up, hide the rest, and pin favourites to the top or bottom. Do Not Disturb aware.
-- **Gestures & shortcuts** - give the button a tap and four swipe directions, each doing whatever you choose; group actions into "modes" and switch with a swipe.
+- **Screen lighting** - a new notification lights up the screen, with a screen-border effect and a button effect that can play together: Basic, Multicolour, Glow, Echo, Neon, Lightning, Rise, Heartbeat, Drip and Converge around the edge, and Wave, Bubbles, Fireworks, Eclipse, Spotlight, Halo, Ripple, Sparkle, Pulse rings, Charge, Vortex, Sonar and Confetti around the floating button, following its shape - in the notification's colour, your theme's or your own. Rules can light up in their own style.
+- **Gestures & shortcuts** - give the button a tap and four swipe directions, each doing whatever you choose - open an app, run a shortcut, go back to the previous app, call the assistant, toggle the torch or mute, or paste one of your saved texts; group actions into "modes" and switch with a swipe.
+- **Action wheel** - instead of four swipes, a mode can open a wheel of actions in three rings around the button: press, slide onto one and lift. The rings follow the button's shape, and slots that would fall off screen move to where you can reach them.
+- **Test before you choose** - when picking an app screen or building a custom intent, a Test button runs it first; screens other apps can't open are marked.
 - **Home screen widgets** - a full notification list widget (works on the lock screen too), slim icon-strip widgets, and a tiny count widget.
 - **Open it your way** - from the home screen, lock screen, or an automation app like MacroDroid or Tasker.
 
@@ -115,14 +120,15 @@ The only things the app needs are notification access (so it can show your notif
 
 ## 🔑 How this app uses the Accessibility Service
 
-Bottom notifications includes an optional Accessibility Service. It is turned **OFF by default**, you are never required to enable it, and every other feature works fully without it. If you choose to turn it on, it powers four things:
+Bottom notifications includes an optional Accessibility Service. It is turned **OFF by default**, you are never required to enable it, and every other feature works fully without it. If you choose to turn it on, it powers five things:
 
 1. **Per-app button behaviour** - it detects which app is in the foreground, so the button can change how it behaves (for example move aside or hide) only in the apps you choose.
 2. **Keyboard-aware button** - it detects when the on-screen keyboard is visible and where it sits, so the button can move out of the way or hide while you type.
 3. **Navigation gestures** - it performs Back, Home, and Recent-apps actions when you assign one of those to a button tap or swipe.
 4. **Rule actions** - Android only allows rules to press a notification's own buttons, open it, or reply while an accessibility service is on. The service itself taps nothing and reads nothing extra for this.
+5. **Saved texts** - when a button gesture triggers one of your saved texts, it pastes that text into the field you are typing in. It finds the field that has focus and pastes; it reads no text.
 
-The service only checks which app is in front and whether the keyboard is showing. It does **NOT** read, log, record, collect, or transmit the content of your screen, your keystrokes, or any personal data, and nothing it observes ever leaves your device. You can turn it off at any time in Android's Accessibility settings.
+The service only checks which app is in front, whether the keyboard is showing, and which field to paste a saved text into. It does **NOT** read, log, record, collect, or transmit the content of your screen, your keystrokes, or any personal data, and nothing it observes ever leaves your device. You can turn it off at any time in Android's Accessibility settings.
 
 ---
 
