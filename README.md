@@ -257,7 +257,8 @@ If Pro ever ends, your Pro settings are kept and come back when Pro does.
 [General](Screenshots/Settings%20-%20general.jpg) ·
 [Notifications](Screenshots/Settings%20-%20notifications.jpg) ·
 [Button](Screenshots/Settings%20-%20button.jpg) ·
-[Shade](Screenshots/Settings%20-%20shade.jpg)
+[Shade](Screenshots/Settings%20-%20shade.jpg) ·
+[Edge swipe](Screenshots/Settings%20-%20edge%20swipe.jpg)
 
 </div>
 
