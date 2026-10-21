@@ -26,6 +26,19 @@ And it works on your **lock screen** too: open the shade right over the lock scr
 
 ---
 
+<!-- whats-new:start -->
+## 🆕 What's new in 2.7
+
+- New with Pro: the floating button on the lock screen too. Tap it to open the shade, drag or fling it to move it. It shares the floating button's position and settings, and any setting can be different on the lock screen. Needs the accessibility service.
+- Omnideck actions: with several Decks in Omnideck 3.3 (Pro), choose which Deck an Open or Show / hide Deck action opens. Its name stays up to date when Decks are renumbered in Omnideck.
+- Swiping notifications away is easier: new Diagonal swipes and Dismiss cue switches on the Shade tab, and Advanced swipe settings go lower.
+- Fixed an empty notification sometimes staying in the shade after dismissing an app's last notification.
+
+[All release notes](RELEASE-NOTES.md)
+<!-- whats-new:end -->
+
+---
+
 ## 💬 Feedback, bug reports & feature requests
 
 This repository is the home for **reporting issues and requesting features** for Bottom notifications.
