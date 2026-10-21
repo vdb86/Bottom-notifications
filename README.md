@@ -22,6 +22,8 @@ Bottom notifications puts a notification shade at the **bottom** of your screen,
 
 It is also a full **notification manager**: rules that watch for the notifications you describe and act on them for you, all on your device.
 
+And it works on your **lock screen** too: open the shade right over the lock screen and reply without unlocking, with the floating button sitting on the lock screen, one tap from your notifications.
+
 ---
 
 ## 💬 Feedback, bug reports & feature requests
@@ -39,13 +41,14 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 ## ✨ At a glance
 
 - **A shade at the bottom** - your notifications slide up from where your thumb is, in a list or one of 20 browsing styles.
+- **On your lock screen** - the shade opens right over the lock screen (reply without unlocking if you like), and the floating button can sit on the lock screen too, one tap away. [More below](#-on-your-lock-screen).
 - **A notification manager** - rules that silence, hold, snooze, dismiss, pin, protect, remind, copy codes, reply or press buttons for you. [More below](#-the-notification-manager).
 - **A floating button you design** - shape, size, colours, icons around it, animations, and where it goes when you type, watch a video or turn the phone.
 - **Gestures everywhere** - a tap plus 16 swipes on the button, an Action wheel, and invisible Edge swipe strips on the sides of the screen.
 - **Screen lighting** - the screen edge and the space around the button light up when a notification arrives.
 - **Animals** - a pixel-art dog or cat roams along the bottom of your screen, 35 to choose from. [More below](#-animals).
 - **Pin and protect** - keep a notification at the top or bottom of the shade, and stop the important ones from being swiped away or cleared.
-- **Widgets and the lock screen** - a full notification list widget, slim icon strips, a count, and the shade on your lock screen.
+- **Widgets** - a full notification list widget (home and lock screen), slim icon strips and a count.
 - **Your look** - Material You, 75 ready-made themes, your own themes, icon packs and your own icon for any app.
 - **Private** - no ads, no trackers, no analytics, no account. Your notifications never leave your device.
 
@@ -57,7 +60,8 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 
 - Tap to open, swipe to dismiss, use the notification's own buttons, see its progress bar, and reply right from the shade - the keyboard opens by itself and the notification you're replying to stays visible above it.
 - **Snooze** in one tap from a list of up to 8 durations you can edit, each one "for a while" or "until a time".
-- **Actions** lists what a notification really holds - a verification code, a link, a phone number, the message itself - each ready to open, copy or share. Opening a number fills in the dialer; it never calls.
+- **Actions** lists what a notification really holds - a verification code, a link, a phone number, an email address, the message itself - each ready to open, copy or share. Opening a number fills in the dialer; it never calls.
+- **Buttons below the notification** (each switched on separately): Copy code, Open link, Call and Email appear under the notification's own buttons when it contains one of those. Copy code works on the lock screen without unlocking.
 - **Long-press** a row for: pin this notification at the top or the bottom, protect it, pin or protect the whole app, group it, exclude it, make a rule for it, or jump to the app's info and notification settings.
 - Small icons on the row show what is pinned or protected.
 
@@ -70,6 +74,7 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 - 20 browsing styles: List, Ferris wheel, Card stack, Spotlight, Coverflow, Wave, Fan, Origami, Flythrough, Swivel, Helix, Sway, Cascade, Tumble, Book, Swirl, Conveyor, Crescent, Lens (Android 12+) and Pinch.
 - 35 open and close animations, or none at all.
 - Wrap-around scrolling, push or pull to close, notifications shown in full, a starting position, remembering where you scrolled, and fine-tuning for swipe distance and speed.
+- **Easier swiping**, each switched on separately: Diagonal swipes lets a thumb's arc still swipe a notification away instead of scrolling, and Dismiss cue gives a short vibration and dims the row once letting go will dismiss it.
 
 **Size, place and style**
 
@@ -90,6 +95,18 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 - Choose which apps appear (include or exclude), pin apps to the top or the bottom, protect apps, and show only - or hide - notifications containing the words you choose.
 - Per-app colour, a limit on how many lines a notification shows, and your own icon for the app.
 - Hide permanent notifications and ones without a time, split up grouped notifications, and follow Do Not Disturb so quiet time stays quiet.
+
+---
+
+## 📱 On your lock screen
+
+Your notifications at the bottom of the lock screen too - no unlocking just to see what came in.
+
+- **Lock screen shade** - open the shade right over the lock screen: read, swipe away, snooze, use the notification's buttons and reply without unlocking (or ask for an unlock first, your choice). It can have its own look, and opening a notification asks for the unlock.
+- **Button on the lock screen** - the floating button sits on the lock screen while the phone is locked: tap it to open the shade, drag or fling it to move it. It shares the floating button's position and settings, and any setting (or its position) can be different on the lock screen. Needs the accessibility service.
+- **Other ways** - a Bottom notifications widget on the lock screen (on Samsung with Good Lock), or an automation app like MacroDroid opening the shade from a volume-button long press. The app shows you how, step by step.
+
+Both are part of Pro.
 
 ---
 
@@ -121,12 +138,13 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 **Button gestures**
 
 - A tap plus 8 swipe directions, each with a short and a long swipe - 16 slots, each doing whatever you choose, with a visual configurator for the directions and distances.
-- **Or an Action wheel** - swipe from the button and a wheel of actions opens in three rings around it: slide onto one and lift. The rings follow the button's shape, and slots that would fall off screen move to where you can reach them. Rename slots, drag to swap them, choose the icon size, spacing, names, vibration and background dim.
+- **Or an Action wheel** - swipe from the button and a wheel of actions opens in three rings around it: slide onto one and lift. The rings follow the button's shape, and slots that would fall off screen move to where you can reach them. Rename slots, drag to swap them, choose the icon size, spacing, names, vibration, background dim and opacity, and whether the wheel opens where you touch or at a fixed spot.
 - A small animation (Nudge, Tilt, Pop or Glow) confirms the gesture.
 
 **Edge swipe**
 
-- Invisible strips on the left, the right or both screen edges, with a width and touch area you set on the real screen.
+- Invisible strips on the left, the right or both screen edges, with a width and touch area you set on the real screen - or give each strip its own touch area (position and width).
+- Tap a strip to run an action or open the Action wheel.
 - Swipe in to open the shade, or give each of 5 directions (up, in and up, in, in and down, down - short and long) its own action, or open a half Action wheel from the edge.
 - Both strips can share one set of actions (Mirror) or have their own.
 - An optional visible hint (pill, rectangle or rounded rectangle) in your colour, and its own behaviour for the keyboard, full screen apps and the apps you pick.
@@ -134,7 +152,7 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 **What a gesture can do**
 
 - **Open app...** - any app, including work-profile apps.
-- **Omnideck action...** - pick any action in [Omnideck](https://play.google.com/store/apps/details?id=com.omnideck.app) (an app's screen, a link, a website, a saved text, a web request, a Deck trigger and more), give it a name and an icon, and Omnideck runs it. Needs Omnideck 3.0.
+- **Omnideck action...** - pick any action in [Omnideck](https://play.google.com/store/apps/details?id=com.omnideck.app) (an app's screen, a link, a website, a saved text, a web request, a Deck trigger and more), give it a name and an icon, and Omnideck runs it. Needs Omnideck 3.0. With several Decks in Omnideck 3.3 (Pro), choose which Deck an Open or Show / hide Deck action opens; its name stays up to date when Decks are renumbered.
 - Open the shade, clear all notifications, release held notifications.
 - Play/pause, previous, next, seek back or forward 10 seconds, stop, and favourite the current track.
 - Volume up, volume down, toggle mute, torch.
@@ -150,7 +168,7 @@ A new notification lights up the screen, with a screen-border effect and an effe
 
 - **10 border effects** - Basic, Multicolour, Glow, Echo, Neon, Lightning, Rise, Heartbeat, Drip and Converge.
 - **20 effects around the button**, following its shape - Wave, Bubbles, Fireworks, Eclipse, Spotlight, Halo, Ripple, Sparkle, Pulse rings, Charge, Vortex, Sonar, Confetti, Swell, Fireflies, Raindrops, Wobble, Gyro, Drizzle and Fringe.
-- In the notification's colour, your theme's or your own, with width, transparency and duration.
+- In the notification's colour, your theme's or your own, with width, opacity and duration.
 - Only notifications that alert you light it up - silent, ongoing and progress ones don't - and the light fades when its notification goes away.
 - Rules can light up in their own style.
 
@@ -205,12 +223,11 @@ A rule watches for the notifications you describe, then acts on them - no tappin
 
 ---
 
-## 🧩 Widgets, lock screen and other ways in
+## 🧩 Widgets and other ways in
 
 - **Notification list widget** - the full shade on your home screen (and lock screen), with its own sort order and look.
 - **Icon strip widgets** - a slim row or column of notification icons.
 - **Count widget** - a tiny unread count.
-- **Lock screen shade** - open the shade on the lock screen and reply from there, with its own look.
 - **Open it your way** - long-press the app icon for "Show shade", add a separate shade icon to your launcher, or start it from an automation app like MacroDroid or Tasker.
 - Optional Toggle shade and Toggle button controls in the app's own notification.
 
@@ -224,12 +241,13 @@ A rule watches for the notifications you describe, then acts on them - no tappin
 - Settings tabs at the top or the bottom.
 - **Backup and restore** your settings, rules, themes and icons.
 - What's new in the app, a built-in update check, and debug windows you can copy when reporting a problem.
+- **Email the developer** adds your phone model, Android version and which permissions are on, so a problem is quicker to fix - never your notifications, your list of apps, your rules or your contacts.
 
 ---
 
 ## ⭐ Free and Pro
 
-Bottom notifications is free to use. **Pro** is a one-time purchase - no subscription, no recurring charges - and unlocks themes and the theme editor, the lock screen shade, backup and restore, per-app colours, line limits and filters, full shade styling and browsing styles, button gestures, the Action wheel and Edge swipe actions, the icon cluster and button animations, button behaviour, grouping, unlimited rules, every Screen lighting effect, and the other 33 animals with every animal setting.
+Bottom notifications is free to use. **Pro** is a one-time purchase - no subscription, no recurring charges - and unlocks themes and the theme editor, the lock screen shade and button, backup and restore, per-app colours, line limits and filters, full shade styling and browsing styles, button gestures, the Action wheel and Edge swipe actions, the icon cluster and button animations, button behaviour, grouping, unlimited rules, every Screen lighting effect, and the other 33 animals with every animal setting.
 
 Free includes the bottom shade, the floating button's look and position, snooze and Actions, pinning a notification, the Clear all and Settings shade buttons, one rule, the Basic Screen lighting border, Edge swipe to open the shade, the Labrador and the House Cat, Material You, icon packs, and the icon strip and count widgets.
 
@@ -270,19 +288,20 @@ If Pro ever ends, your Pro settings are kept and come back when Pro does.
 - **No ads. No trackers. No analytics.**
 - **No account, no sign-up, no email required.**
 
-The only things the app needs are notification access (so it can show your notifications) and permission to display over other apps (so the button and shade can appear). Everything else is optional and only powers extra features - usage access (the button's per-app behaviour and Previous app), the Accessibility Service below, Do Not Disturb access, alarms (so rule reminders go off on time), contacts (only for the rule condition "from a contact") and ignoring battery optimisation. You are always in control.
+The only things the app needs are notification access (so it can show your notifications) and permission to display over other apps (so the button and shade can appear). Everything else is optional and only powers extra features - usage access (the button's per-app behaviour and Previous app), the Accessibility Service below, Do Not Disturb access, alarms (so rule reminders go off on time), contacts (only for the rule condition "from a contact") and ignoring battery optimisation. A **Permissions page** shows what is granted, what each permission is for, and takes you straight to the right setting for anything missing. You are always in control.
 
 ---
 
 ## 🔑 How this app uses the Accessibility Service
 
-Bottom notifications includes an optional Accessibility Service. It is turned **OFF by default**, you are never required to enable it, and every other feature works fully without it. If you choose to turn it on, it powers three things:
+Bottom notifications includes an optional Accessibility Service. It is turned **OFF by default**, you are never required to enable it, and every other feature works fully without it. If you choose to turn it on, it powers four things:
 
 1. **Keyboard awareness** - it detects when the on-screen keyboard is visible and where it sits, so the floating button, the Edge swipe strips and the animal can move out of the way, let taps through or hide while you type.
 2. **Navigation gestures** - it performs Back, Home, and Recent-apps actions when you assign one of those to a button or Edge swipe gesture.
 3. **Rule actions** - Android only allows rules to press a notification's own buttons, open it, or reply while an accessibility service is on. The service itself taps nothing and reads nothing extra for this.
+4. **The button on the lock screen** (Pro, only if you turn it on) - Android only lets an accessibility service draw over the lock screen, so the service shows the floating button there while your phone is locked. It reads nothing for this.
 
-The service only checks whether the keyboard is showing and where. It does **NOT** read, log, record, collect, or transmit the content of your screen, your keystrokes, or any personal data, and nothing it observes ever leaves your device. You can turn it off at any time in Android's Accessibility settings.
+The service only checks whether the keyboard is showing and where, and draws the lock screen button if you turned it on. It does **NOT** read, log, record, collect, or transmit the content of your screen, your keystrokes, or any personal data, and nothing it observes ever leaves your device. You can turn it off at any time in Android's Accessibility settings.
 
 ---
 
