@@ -16,6 +16,8 @@
 
 </div>
 
+**Bottom notifications was featured by HowToMen.** **[Watch the video](https://www.youtube.com/watch?v=TYNzg59ke30&t)**
+
 ---
 
 Bottom notifications puts a notification shade at the **bottom** of your screen, where your hand already is. Tap a small floating button, or swipe in from the edge of the screen, and your notifications slide up from the bottom - easy to read, easy to reach, and easy to make your own.
