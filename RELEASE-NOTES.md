@@ -2,6 +2,16 @@
 
 What changed in each version of [Bottom notifications](https://play.google.com/store/apps/details?id=com.bottomnotifications.app), newest first. The same text as the app's What's new page.
 
+## 2.8
+
+- Several Pro features are now free.
+- New with Pro: Screen lighting on the lock screen too (Lock screen card), and any of its settings can be different there. A notification that wakes the screen lights it, and unlocking carries the light on to the home screen.
+- The lock-screen button (Pro) now has the floating button's gestures and Action wheel. Actions that open something ask you to unlock first, and any gesture can be different on the lock screen.
+- The lock-screen button (Pro) now plays the floating button's appear and hide animation, also each time the screen turns on, and the animation can be different on the lock screen. Unlocking swaps it for the floating button without a blink.
+- Fixed the shade's newest notification sometimes sitting below the bottom edge, and the list creeping up by itself after opening or after swiping a notification away.
+- The floating button answers a tap at once, also while notifications are arriving and Screen lighting plays. (A tap used to wait a moment in case a second tap followed; two quick taps were lost.)
+- Fixed the lock-screen button (Pro) sometimes being invisible after the screen turned on, although it still worked when tapped.
+
 ## 2.7
 
 - New with Pro: the floating button on the lock screen too. Tap it to open the shade, drag or fling it to move it. It shares the floating button's position and settings, and any setting can be different on the lock screen. Needs the accessibility service.

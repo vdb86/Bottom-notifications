@@ -24,17 +24,20 @@ Bottom notifications puts a notification shade at the **bottom** of your screen,
 
 It is also a full **notification manager**: rules that watch for the notifications you describe and act on them for you, all on your device.
 
-And it works on your **lock screen** too: open the shade right over the lock screen and reply without unlocking, with the floating button sitting on the lock screen, one tap from your notifications.
+And it works on your **lock screen** too: open the shade right over the lock screen and reply without unlocking, with the floating button sitting on the lock screen, one tap from your notifications, and Screen lighting playing there when something arrives.
 
 ---
 
 <!-- whats-new:start -->
-## 🆕 What's new in 2.7
+## 🆕 What's new in 2.8
 
-- New with Pro: the floating button on the lock screen too. Tap it to open the shade, drag or fling it to move it. It shares the floating button's position and settings, and any setting can be different on the lock screen. Needs the accessibility service.
-- Omnideck actions: with several Decks in Omnideck 3.3 (Pro), choose which Deck an Open or Show / hide Deck action opens. Its name stays up to date when Decks are renumbered in Omnideck.
-- Swiping notifications away is easier: new Diagonal swipes and Dismiss cue switches on the Shade tab, and Advanced swipe settings go lower.
-- Fixed an empty notification sometimes staying in the shade after dismissing an app's last notification.
+- Several Pro features are now free.
+- New with Pro: Screen lighting on the lock screen too (Lock screen card), and any of its settings can be different there. A notification that wakes the screen lights it, and unlocking carries the light on to the home screen.
+- The lock-screen button (Pro) now has the floating button's gestures and Action wheel. Actions that open something ask you to unlock first, and any gesture can be different on the lock screen.
+- The lock-screen button (Pro) now plays the floating button's appear and hide animation, also each time the screen turns on, and the animation can be different on the lock screen. Unlocking swaps it for the floating button without a blink.
+- Fixed the shade's newest notification sometimes sitting below the bottom edge, and the list creeping up by itself after opening or after swiping a notification away.
+- The floating button answers a tap at once, also while notifications are arriving and Screen lighting plays. (A tap used to wait a moment in case a second tap followed; two quick taps were lost.)
+- Fixed the lock-screen button (Pro) sometimes being invisible after the screen turned on, although it still worked when tapped.
 
 [All release notes](RELEASE-NOTES.md)
 <!-- whats-new:end -->
@@ -56,7 +59,7 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 ## ✨ At a glance
 
 - **A shade at the bottom** - your notifications slide up from where your thumb is, in a list or one of 20 browsing styles.
-- **On your lock screen** - the shade opens right over the lock screen (reply without unlocking if you like), and the floating button can sit on the lock screen too, one tap away. [More below](#-on-your-lock-screen).
+- **On your lock screen** - the shade opens right over the lock screen (reply without unlocking if you like), the floating button can sit on the lock screen too, one tap away, with its gestures and Action wheel, and Screen lighting plays there as well. [More below](#-on-your-lock-screen).
 - **A notification manager** - rules that silence, hold, snooze, dismiss, pin, protect, remind, copy codes, reply or press buttons for you. [More below](#-the-notification-manager).
 - **A floating button you design** - shape, size, colours, icons around it, animations, and where it goes when you type, watch a video or turn the phone.
 - **Gestures everywhere** - a tap plus 16 swipes on the button, an Action wheel, and invisible Edge swipe strips on the sides of the screen.
@@ -118,7 +121,8 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 Your notifications at the bottom of the lock screen too - no unlocking just to see what came in.
 
 - **Lock screen shade** - open the shade right over the lock screen: read, swipe away, snooze, use the notification's buttons and reply without unlocking (or ask for an unlock first, your choice). It can have its own look, and opening a notification asks for the unlock.
-- **Button on the lock screen** - the floating button sits on the lock screen while the phone is locked: tap it to open the shade, drag or fling it to move it. It shares the floating button's position and settings, and any setting (or its position) can be different on the lock screen. Needs the accessibility service.
+- **Button on the lock screen** - the floating button sits on the lock screen while the phone is locked: tap it to open the shade, hold it, then drag or fling it to move it. Its gestures and Action wheel work there too (an action that opens an app asks for the unlock first), and it appears and hides with the floating button's animation. It shares the floating button's position and settings, and any setting (or its position) can be different on the lock screen. Needs the accessibility service.
+- **Screen lighting on the lock screen** - a new notification lights up the lock screen too, round the lock-screen button, also when it wakes the screen; unlock while it plays and it carries on over your home screen. Any of its settings can be different on the lock screen. Needs the accessibility service.
 - **Other ways** - a Bottom notifications widget on the lock screen (on Samsung with Good Lock), or an automation app like MacroDroid opening the shade from a volume-button long press. The app shows you how, step by step.
 
 Both are part of Pro.
@@ -186,6 +190,7 @@ A new notification lights up the screen, with a screen-border effect and an effe
 - In the notification's colour, your theme's or your own, with width, opacity and duration.
 - Only notifications that alert you light it up - silent, ongoing and progress ones don't - and the light fades when its notification goes away.
 - Rules can light up in their own style.
+- On the lock screen too (Pro), with its own look if you like - [see above](#-on-your-lock-screen).
 
 ---
 
@@ -262,9 +267,9 @@ A rule watches for the notifications you describe, then acts on them - no tappin
 
 ## ⭐ Free and Pro
 
-Bottom notifications is free to use. **Pro** is a one-time purchase - no subscription, no recurring charges - and unlocks themes and the theme editor, the lock screen shade and button, backup and restore, per-app colours, line limits and filters, full shade styling and browsing styles, button gestures, the Action wheel and Edge swipe actions, the icon cluster and button animations, button behaviour, grouping, unlimited rules, every Screen lighting effect, and the other 33 animals with every animal setting.
+Bottom notifications is free to use. **Pro** is a one-time purchase - no subscription, no recurring charges - and unlocks themes and the theme editor, the lock screen shade, button and Screen lighting, per-app colours, line limits and filters, full shade styling and browsing styles, button gestures, the Action wheel and Edge swipe actions, the icon cluster and button animations, button behaviour, grouping, unlimited rules, and the other 33 animals with every animal setting.
 
-Free includes the bottom shade, the floating button's look and position, snooze and Actions, pinning a notification, the Clear all and Settings shade buttons, one rule, the Basic Screen lighting border, Edge swipe to open the shade, the Labrador and the House Cat, Material You, icon packs, and the icon strip and count widgets.
+Free includes the bottom shade, the floating button's look and position (off-screen too, and a separate position when snapped), snooze and Actions, pinning a notification, the Clear all and Settings shade buttons, the controls in bn's own notification, one rule, Screen lighting with every effect and option, Edge swipe to open the shade (each strip can have its own touch area), backup and restore, the Labrador and the House Cat, Material You, icon packs, and the icon strip and count widgets.
 
 If Pro ever ends, your Pro settings are kept and come back when Pro does.
 
@@ -314,9 +319,9 @@ Bottom notifications includes an optional Accessibility Service. It is turned **
 1. **Keyboard awareness** - it detects when the on-screen keyboard is visible and where it sits, so the floating button, the Edge swipe strips and the animal can move out of the way, let taps through or hide while you type.
 2. **Navigation gestures** - it performs Back, Home, and Recent-apps actions when you assign one of those to a button or Edge swipe gesture.
 3. **Rule actions** - Android only allows rules to press a notification's own buttons, open it, or reply while an accessibility service is on. The service itself taps nothing and reads nothing extra for this.
-4. **The button on the lock screen** (Pro, only if you turn it on) - Android only lets an accessibility service draw over the lock screen, so the service shows the floating button there while your phone is locked. It reads nothing for this.
+4. **The button and Screen lighting on the lock screen** (Pro, only if you turn them on) - Android only lets an accessibility service draw over the lock screen, so the service shows the floating button and Screen lighting there while your phone is locked. It reads nothing for this.
 
-The service only checks whether the keyboard is showing and where, and draws the lock screen button if you turned it on. It does **NOT** read, log, record, collect, or transmit the content of your screen, your keystrokes, or any personal data, and nothing it observes ever leaves your device. You can turn it off at any time in Android's Accessibility settings.
+The service only checks whether the keyboard is showing and where, and draws the lock screen button and Screen lighting if you turned them on. It does **NOT** read, log, record, collect, or transmit the content of your screen, your keystrokes, or any personal data, and nothing it observes ever leaves your device. You can turn it off at any time in Android's Accessibility settings.
 
 ---
 
