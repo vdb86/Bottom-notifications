@@ -32,6 +32,7 @@ And it works on your **lock screen** too: open the shade right over the lock scr
 ## 🆕 What's new in 2.8
 
 - Several Pro features are now free.
+- New: lock the floating button's position, and choose how long to hold it before it moves (Button tab, Position card).
 - New with Pro: Screen lighting on the lock screen too (Lock screen card), and any of its settings can be different there. A notification that wakes the screen lights it, and unlocking carries the light on to the home screen.
 - The lock-screen button (Pro) now has the floating button's gestures and Action wheel. Actions that open something ask you to unlock first, and any gesture can be different on the lock screen.
 - The lock-screen button (Pro) now plays the floating button's appear and hide animation, also each time the screen turns on, and the animation can be different on the lock screen. Unlocking swaps it for the floating button without a blink.
@@ -133,7 +134,7 @@ Both are part of Pro.
 
 **Its look**
 
-- Size, shape, corner radius (each corner separately if you like), colours, border and position - plus a separate look and position for when it's snapped to the edge, and placing it partly off screen.
+- Size, shape, corner radius (each corner separately if you like), colours, border and position - plus a separate look and position for when it's snapped to the edge, and placing it partly off screen. Lock it in place so it can't be moved by accident, or choose how long to hold it before it moves.
 - The latest notification's icon, or a full-button icon, and an unread number styled your way.
 - **Icon cluster** - the icons of your notifications around the button in a Line, Orbit, Half orbit or Arc, with size, distance, order, colour and "+N" options.
 - **56 animated icons**, including a real battery level and a clock.
@@ -269,7 +270,7 @@ A rule watches for the notifications you describe, then acts on them - no tappin
 
 Bottom notifications is free to use. **Pro** is a one-time purchase - no subscription, no recurring charges - and unlocks themes and the theme editor, the lock screen shade, button and Screen lighting, per-app colours, line limits and filters, full shade styling and browsing styles, button gestures, the Action wheel and Edge swipe actions, the icon cluster and button animations, button behaviour, grouping, unlimited rules, and the other 33 animals with every animal setting.
 
-Free includes the bottom shade, the floating button's look and position (off-screen too, and a separate position when snapped), snooze and Actions, pinning a notification, the Clear all and Settings shade buttons, the controls in bn's own notification, one rule, Screen lighting with every effect and option, Edge swipe to open the shade (each strip can have its own touch area), backup and restore, the Labrador and the House Cat, Material You, icon packs, and the icon strip and count widgets.
+Free includes the bottom shade, the floating button's look and position (off-screen too, a separate position when snapped, and locking it in place), snooze and Actions, pinning a notification, the Clear all and Settings shade buttons, the controls in bn's own notification, one rule, Screen lighting with every effect and option, Edge swipe to open the shade (each strip can have its own touch area), backup and restore, the Labrador and the House Cat, Material You, icon packs, and the icon strip and count widgets.
 
 If Pro ever ends, your Pro settings are kept and come back when Pro does.
 

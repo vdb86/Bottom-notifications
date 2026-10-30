@@ -5,6 +5,7 @@ What changed in each version of [Bottom notifications](https://play.google.com/s
 ## 2.8
 
 - Several Pro features are now free.
+- New: lock the floating button's position, and choose how long to hold it before it moves (Button tab, Position card).
 - New with Pro: Screen lighting on the lock screen too (Lock screen card), and any of its settings can be different there. A notification that wakes the screen lights it, and unlocking carries the light on to the home screen.
 - The lock-screen button (Pro) now has the floating button's gestures and Action wheel. Actions that open something ask you to unlock first, and any gesture can be different on the lock screen.
 - The lock-screen button (Pro) now plays the floating button's appear and hide animation, also each time the screen turns on, and the animation can be different on the lock screen. Unlocking swaps it for the floating button without a blink.
